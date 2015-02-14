@@ -1,0 +1,26 @@
+{
+  "name": "ist-vine",
+  "version": "0.0.1",
+  "authors": [
+    "Queli Coto <quelicm@gmail.com>"
+  ],
+  "description": "Web component to create a vine player using Polymer.",
+  "keywords": [
+    "image",
+    "Polymer",
+    "web-components",
+    "vine",
+  ],
+  "license": "MIT",
+  "homepage": "http://quelicoto.es",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4"
+  }
+}

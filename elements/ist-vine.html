@@ -1,0 +1,24 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="ist-vine" attributes="v type autoplaysound size">
+  <template>
+    <iframe src="{{src}}" width="{{size}}" height="{{size}}" frameborder="0"></iframe>
+  </template>
+  <script>
+    Polymer({
+     v: 'hJEXhxvbidT',
+     type :'simple',
+     autoplaysound: '0',
+     size: 480,
+      // initialize the element's model
+     ready: function() {
+        console.log(typeof this.autoplaysound);
+        console.log(this.autoplaysound);
+        if(this.autoplaysound){
+          this.autoplaysound= 1;
+        }
+        this.src ='//vine.co/v/'+this.v+'/embed/'+this.type+'/?audio='+this.autoplaysound;
+     }
+    });
+  </script>
+</polymer-element>
