@@ -5,17 +5,9 @@
 
 ## Demo
 
-[Check it live!](http://quelicoto.es/polymer/ist-vine/index.html)
+[Check it live!](http://quelicoto.es/polymer/faifumo-webcomponents/index-vine.html)
 
-## Install
 
-Install the component using [Bower](http://bower.io/):
-
-```sh
-$ bower install ist-vine --save
-```
-
-Or [download as ZIP](https://github.com/Isiat/ist-vine/archive/master.zip).
 
 ## Usage
 
